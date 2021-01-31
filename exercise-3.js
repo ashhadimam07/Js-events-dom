@@ -17,8 +17,8 @@ encoder = document.querySelector("#encoder");
 decoder = document.querySelector("#decoder");
 encoder.addEventListener('click', event => {
     output.value = encode(text.value);
-})
+});
 
 decoder.addEventListener('click', event => {
     output.value = revEncode(text.value);
-})
+});
